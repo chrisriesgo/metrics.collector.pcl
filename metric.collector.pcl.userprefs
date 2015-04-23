@@ -1,0 +1,34 @@
+﻿<Properties StartupItem="metric.collector.sample/Droid/metric.collector.sample.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API21" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="metric.collector.sample/App.cs">
+    <Files>
+      <File FileName="metric.collector.sample/App.cs" Line="42" Column="2" />
+      <File FileName="metric.collector.sample/Pages/MainPage.cs" Line="1" Column="1" />
+      <File FileName="metric.collector.sample/ViewModels/MetricCollectorViewModel.cs" Line="106" Column="33" />
+      <File FileName="metric.collector.test/MetricCollectionFixture.cs" Line="70" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Samples" expanded="True">
+            <Node name="metric.collector.sample" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+            <Node name="metric.collector.sample.Droid" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
