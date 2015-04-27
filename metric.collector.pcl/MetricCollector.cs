@@ -21,6 +21,13 @@ namespace metric.collector.pcl
             return meter;
         }
 
+        public Custom Custom(string type, string units, string measurement)
+        {
+            var custom = new Custom(type, units, BaseNamespace + "." + measurement);
+            custom.Subscribe(this);
+            return custom;
+        }
+
         public void OnCompleted()
         {
 

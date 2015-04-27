@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 VisualStudioVersion = 12.0.31101.0
@@ -15,6 +15,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{D4B0213B-AD6C-4400-AF13-141E9BC8FC0B}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "metric.collector.sample", "metric.collector.sample\metric.collector.sample.shproj", "{3B62F8D7-1D23-4093-8650-97D3D5A64C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metric.integration.test", "metric.integration.test\metric.integration.test.csproj", "{E1A6239A-81AF-456A-BBA7-DF95B6978D45}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metric.collector.sample.iOS", "metric.collector.sample\iOS\metric.collector.sample.iOS.csproj", "{1EF0B9A7-13BD-40F0-9834-01FF54114EBD}"
 EndProject
@@ -101,6 +103,10 @@ Global
 		{3B62F8D7-1D23-4093-8650-97D3D5A64C99} = {D4B0213B-AD6C-4400-AF13-141E9BC8FC0B}
 		{1EF0B9A7-13BD-40F0-9834-01FF54114EBD} = {D4B0213B-AD6C-4400-AF13-141E9BC8FC0B}
 		{F9541889-DAB9-4FDD-813F-7CA96AE2F749} = {D4B0213B-AD6C-4400-AF13-141E9BC8FC0B}
+		{E1A6239A-81AF-456A-BBA7-DF95B6978D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A6239A-81AF-456A-BBA7-DF95B6978D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A6239A-81AF-456A-BBA7-DF95B6978D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A6239A-81AF-456A-BBA7-DF95B6978D45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
