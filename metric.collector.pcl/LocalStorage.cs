@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace metric.collector.pcl
 {
@@ -8,9 +9,10 @@ namespace metric.collector.pcl
 		{
 		}
 
-		public System.Threading.Tasks.Task StoreAsync()
+		public async System.Threading.Tasks.Task StoreAsync()
 		{
 			throw new NotImplementedException();
+			await Task.Delay(1);
 		}
 	}
 }
