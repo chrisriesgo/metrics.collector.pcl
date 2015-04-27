@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace metric.collector.pcl.droid
+namespace metric.collector.pcl
 {
 	public class LocalStorage : ILocalStorage
 	{
